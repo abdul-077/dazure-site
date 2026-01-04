@@ -1,52 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Design Haven</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Folder Data</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header class="header">
-  <div class="container">
-    <h1 class="logo">Design Haven</h1>
-    <nav class="nav">
-      <a href="#home">Home</a>
-      <a href="#collections">Collections</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<section id="home" class="hero">
-  <div class="container">
-    <h2>Curated Interior Design Experiences</h2>
-    <p>Modern, minimal, and timeless design solutions.</p>
-    <button id="ctaBtn">Explore Collection</button>
-  </div>
-</section>
-
-<section id="collections" class="section">
-  <div class="container grid">
-    <div class="card">Living Spaces</div>
-    <div class="card">Workspaces</div>
-    <div class="card">Decor</div>
-  </div>
-</section>
-
-<section id="about" class="section light">
-  <div class="container">
-    <h3>About Us</h3>
-    <p>Design Haven transforms spaces into experiences through thoughtful design.</p>
-  </div>
-</section>
-
-<footer class="footer">
-  <p>&copy; 2026 Design Haven</p>
-</footer>
-
-<script src="js/main.js"></script>
+    <h1>Converted Entire Folder Data</h1>
+    
+    <!-- Image from folder -->
+    <img src="image.png" alt="Folder Image" style="max-width: 100%; height: auto; display: block; margin: 20px auto;">
+    
+    <!-- Table from data.csv -->
+    <h2>Data Table</h2>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Name</th>
+                <th onclick="sortTable(1)">Age</th>
+                <th onclick="sortTable(2)">City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Replace with actual CSV rows -->
+            <tr><td>John Doe</td><td>25</td><td>New York</td></tr>
+            <tr><td>Jane Smith</td><td>30</td><td>Los Angeles</td></tr>
+            <tr><td>Bob Johnson</td><td>22</td><td>Chicago</td></tr>
+        </tbody>
+    </table>
+    
+    <!-- Text from notes.txt -->
+    <h2>Notes</h2>
+    <p id="notesContent">
+        <!-- Replace with actual content from notes.txt, e.g., "This is a sample note. Add more text here." -->
+        This is a sample note from the folder. It could be paragraphs, lists, or any text data. For example: Remember to update the data regularly. Additional notes: Check the image for details.
+    </p>
+    
+    <script src="script.js"></script>
 </body>
 </html>
