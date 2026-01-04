@@ -1,1 +1,463 @@
-<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n <meta charset=\"UTF-8\">\n <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n <meta name=\"description\" content=\"Aura Beauty - An immersive sensory journey through rare botanical essences and transformative skincare rituals\">\n <title>Aura Beauty | Where Beauty Becomes Art</title>\n \n <!-- Fonts -->\n <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\\\">\\n <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\\\" crossorigin>\n <link href=\"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap\\\" rel=\"stylesheet\">\n \n <!-- Styles -->\n <link rel=\"stylesheet\" href=\"styles.css\">\n</head>\n<body>\n <!-- Header -->\n <header class=\"header frosted-glass\" id=\"header\">\n <div class=\"container\">\n <div class=\"header-inner\">\n <!-- Mobile Menu Button -->\n <button class=\"menu-toggle\" id=\"menuToggle\" aria-label=\"Toggle menu\">\n <svg class=\"menu-icon\" id=\"menuIcon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"3\" y1=\"12\" x2=\"21\" y2=\"12\"></line>\n <line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"></line>\n <line x1=\"3\" y1=\"18\" x2=\"21\" y2=\"18\"></line>\n </svg>\n <svg class=\"close-icon hidden\" id=\"closeIcon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"18\" y1=\"6\" x2=\"6\" y2=\"18\"></line>\n <line x1=\"6\" y1=\"6\" x2=\"18\" y2=\"18\"></line>\n </svg>\n </button>\n\n <!-- Logo -->\n <a href=\"/\" class=\"logo\">\n <h1 class=\"logo-text text-embossed\">Aura</h1>\n </a>\n\n <!-- Desktop Navigation -->\n <nav class=\"nav-desktop\" id=\"navDesktop\">\n <a href=\"#\" class=\"nav-link line-draw\">Ritual</a>\n <a href=\"#\" class=\"nav-link line-draw\">Essences</a>\n <a href=\"#\" class=\"nav-link line-draw\">Atelier</a>\n <a href=\"#\" class=\"nav-link line-draw\">Philosophy</a>\n </nav>\n\n <!-- Actions -->\n <div class=\"header-actions\">\n <button class=\"icon-btn search-btn\" aria-label=\"Search\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <circle cx=\"11\" cy=\"11\" r=\"8\"></circle>\n <line x1=\"21\" y1=\"21\" x2=\"16.65\" y2=\"16.65\"></line>\n </svg>\n </button>\n <button class=\"icon-btn cart-btn\" aria-label=\"Shopping bag\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <path d=\"M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z\"></path>\n <line x1=\"3\" y1=\"6\" x2=\"21\" y2=\"6\"></line>\n <path d=\"M16 10a4 4 0 0 1-8 0\"></path>\n </svg>\n <span class=\"cart-count\">1</span>\n </button>\n </div>\n </div>\n </div>\n\n <!-- Mobile Menu -->\n <nav class=\"nav-mobile hidden\" id=\"navMobile\">\n <div class=\"container\">\n <a href=\"#\" class=\"nav-link-mobile\">Ritual</a>\n <a href=\"#\" class=\"nav-link-mobile\">Essences</a>\n <a href=\"#\" class=\"nav-link-mobile\">Atelier</a>\n <a href=\"#\" class=\"nav-link-mobile\">Philosophy</a>\n </div>\n </nav>\n </header>\n\n <!-- Hero Section -->\n <section class=\"hero mineral-bg\">\n <!-- Background shapes -->\n <div class=\"hero-bg-shapes\">\n <div class=\"blob-1 fluid-blob\"></div>\n <div class=\"blob-2 organic-shape float-delayed\"></div>\n <div class=\"glow-center\"></div>\n </div>\n\n <div class=\"container hero-container\">\n <div class=\"hero-grid\">\n <!-- Content -->\n <div class=\"hero-content reveal-up\">\n <span class=\"hero-label\">The Ritual Collection</span>\n <h1 class=\"hero-title\">\n <span class=\"hero-title-line\">Where Beauty</span>\n <span class=\"hero-title-line italic text-gradient-rose\">Becomes Art</span>\n </h1>\n <p class=\"hero-description\">\n An immersive sensory journey through rare botanical essences and \n transformative skincare rituals, designed to elevate your daily practice.\n </p>\n <div class=\"hero-buttons\">\n <a href=\"#\" class=\"btn btn-primary\">Begin Your Ritual</a>\n <a href=\"#\" class=\"btn btn-ghost\">Explore Essences</a>\n </div>\n </div>\n\n <!-- Crystal Pod Product -->\n <div class=\"hero-product reveal-up\" style=\"animation-delay: 0.3s\">\n <div class=\"product-halo\"></div>\n <div class=\"crystal-pod hero-pod halo-glow\">\n <div class=\"hero-image-wrapper\">\n <img src=\"../src/assets/product-hero.jpg\" alt=\"Aura signature serum in crystal vessel\" class=\"hero-image\">\n <div class=\"image-overlay\"></div>\n </div>\n <div class=\"price-pod frosted-glass float\">\n <p class=\"price-label\">Starting from</p>\n <p class=\"price-value\">€285</p>\n </div>\n </div>\n </div>\n </div>\n </div>\n\n <!-- Scroll Indicator -->\n <div class=\"scroll-indicator\">\n <span class=\"scroll-text\">Discover</span>\n <svg class=\"scroll-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line>\n <polyline points=\"19 12 12 19 5 12\"></polyline>\n </svg>\n </div>\n </section>\n\n <!-- Products Section -->\n <section class=\"products mineral-bg\">\n <div class=\"products-bg-shape organic-shape-alt\"></div>\n \n <div class=\"container\">\n <!-- Header -->\n <div class=\"section-header reveal-up\">\n <span class=\"section-label\">The Collection</span>\n <h2 class=\"section-title\">Curated <span class=\"italic text-gradient-rose\">Essences</span></h2>\n </div>\n\n <!-- Product Grid -->\n <div class=\"product-grid stagger-reveal\">\n <!-- Product 1 - Featured -->\n <article class=\"product-card product-featured\">\n <div class=\"crystal-pod product-pod halo-glow\">\n <div class=\"product-image-wrapper aspect-4-5\">\n <img src=\"../src/assets/product-1.jpg\" alt=\"Luminous Essence\" class=\"product-image\">\n <div class=\"image-overlay\"></div>\n <button class=\"add-btn frosted-glass\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line>\n <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n </svg>\n </button>\n </div>\n </div>\n <div class=\"product-info\">\n <p class=\"product-category\">Serum</p>\n <h3 class=\"product-name\">Luminous Essence</h3>\n <p class=\"product-price\">€285</p>\n </div>\n </article>\n\n <!-- Product 2 -->\n <article class=\"product-card product-half\">\n <div class=\"crystal-pod product-pod halo-glow\">\n <div class=\"product-image-wrapper aspect-square\">\n <img src=\"../src/assets/product-2.jpg\" alt=\"Rose Quartz Elixir\" class=\"product-image\">\n <div class=\"image-overlay\"></div>\n <button class=\"add-btn frosted-glass\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line>\n <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n </svg>\n </button>\n </div>\n </div>\n <div class=\"product-info\">\n <p class=\"product-category\">Oil</p>\n <h3 class=\"product-name\">Rose Quartz Elixir</h3>\n <p class=\"product-price\">€195</p>\n </div>\n </article>\n\n <!-- Product 3 -->\n <article class=\"product-card product-third\">\n <div class=\"crystal-pod product-pod halo-glow\">\n <div class=\"product-image-wrapper aspect-square\">\n <img src=\"../src/assets/product-3.jpg\" alt=\"Pearl Radiance\" class=\"product-image\">\n <div class=\"image-overlay\"></div>\n <button class=\"add-btn frosted-glass\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line>\n <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n </svg>\n </button>\n </div>\n </div>\n <div class=\"product-info\">\n <p class=\"product-category\">Cream</p>\n <h3 class=\"product-name\">Pearl Radiance</h3>\n <p class=\"product-price\">€165</p>\n </div>\n </article>\n\n <!-- Product 4 -->\n <article class=\"product-card product-third\">\n <div class=\"crystal-pod product-pod halo-glow\">\n <div class=\"product-image-wrapper aspect-square\">\n <img src=\"../src/assets/product-4.jpg\" alt=\"Botanical Veil\" class=\"product-image\">\n <div class=\"image-overlay\"></div>\n <button class=\"add-btn frosted-glass\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line>\n <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n </svg>\n </button>\n </div>\n </div>\n <div class=\"product-info\">\n <p class=\"product-category\">Mist</p>\n <h3 class=\"product-name\">Botanical Veil</h3>\n <p class=\"product-price\">€145</p>\n </div>\n </article>\n\n <!-- Product 5 -->\n <article class=\"product-card product-third\">\n <div class=\"crystal-pod product-pod halo-glow\">\n <div class=\"product-image-wrapper aspect-square\">\n <img src=\"../src/assets/product-5.jpg\" alt=\"Silk Renewal\" class=\"product-image\">\n <div class=\"image-overlay\"></div>\n <button class=\"add-btn frosted-glass\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"12\" y1=\"5\" x2=\"12\" y2=\"19\"></line>\n <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n </svg>\n </button>\n </div>\n </div>\n <div class=\"product-info\">\n <p class=\"product-category\">Mask</p>\n <h3 class=\"product-name\">Silk Renewal</h3>\n <p class=\"product-price\">€225</p>\n </div>\n </article>\n </div>\n\n <!-- View All Link -->\n <div class=\"view-all reveal-up\">\n <a href=\"#\" class=\"view-all-link line-draw\">View Complete Collection</a>\n </div>\n </div>\n </section>\n\n <!-- Rituals Section -->\n <section class=\"rituals\">\n <!-- Background shapes -->\n <div class=\"rituals-bg\">\n <div class=\"rituals-gradient-top\"></div>\n <div class=\"rituals-blob-1 organic-shape\"></div>\n <div class=\"rituals-blob-2 organic-shape-alt\"></div>\n </div>\n\n <div class=\"container\">\n <!-- Header -->\n <div class=\"section-header reveal-up\">\n <span class=\"section-label\">The Experience</span>\n <h2 class=\"section-title\">Your <span class=\"italic text-gradient-rose\">Ritual</span> Awaits</h2>\n <p class=\"section-description\">\n Discover curated skincare journeys designed to transform your daily routine \n into moments of serene self-care.\n </p>\n </div>\n\n <!-- Ritual Cards -->\n <div class=\"ritual-grid stagger-reveal\">\n <!-- Ritual 1 -->\n <a href=\"#\" class=\"ritual-card\">\n <div class=\"crystal-pod ritual-pod\">\n <div class=\"ritual-glow\"></div>\n <div class=\"ritual-icon\">\n <div class=\"ritual-icon-inner\"></div>\n </div>\n <div class=\"ritual-content\">\n <p class=\"ritual-time\">6 min ritual</p>\n <h3 class=\"ritual-name\">Morning Awakening</h3>\n <p class=\"ritual-description\">Begin with light</p>\n </div>\n <div class=\"ritual-border\"></div>\n </div>\n </a>\n\n <!-- Ritual 2 -->\n <a href=\"#\" class=\"ritual-card\">\n <div class=\"crystal-pod ritual-pod\">\n <div class=\"ritual-glow\"></div>\n <div class=\"ritual-icon\">\n <div class=\"ritual-icon-inner\"></div>\n </div>\n <div class=\"ritual-content\">\n <p class=\"ritual-time\">12 min ritual</p>\n <h3 class=\"ritual-name\">Evening Restoration</h3>\n <p class=\"ritual-description\">Return to stillness</p>\n </div>\n <div class=\"ritual-border\"></div>\n </div>\n </a>\n\n <!-- Ritual 3 -->\n <a href=\"#\" class=\"ritual-card\">\n <div class=\"crystal-pod ritual-pod\">\n <div class=\"ritual-glow\"></div>\n <div class=\"ritual-icon\">\n <div class=\"ritual-icon-inner\"></div>\n </div>\n <div class=\"ritual-content\">\n <p class=\"ritual-time\">25 min ritual</p>\n <h3 class=\"ritual-name\">Weekly Renewal</h3>\n <p class=\"ritual-description\">Deep transformation</p>\n </div>\n <div class=\"ritual-border\"></div>\n </div>\n </a>\n </div>\n </div>\n </section>\n\n <!-- Newsletter Section -->\n <section class=\"newsletter mineral-bg\">\n <div class=\"newsletter-bg\">\n <div class=\"newsletter-glow\"></div>\n </div>\n\n <div class=\"container\">\n <div class=\"newsletter-wrapper reveal-up\">\n <div class=\"crystal-pod newsletter-pod\">\n <div class=\"newsletter-inner-glow\"></div>\n <div class=\"newsletter-content\">\n <span class=\"section-label\">Inner Circle</span>\n <h2 class=\"section-title\">Join the <span class=\"italic text-gradient-rose\">Ritual</span></h2>\n <p class=\"newsletter-description\">\n Receive early access to new essences, exclusive rituals, and \n invitations to intimate beauty experiences.\n </p>\n \n <!-- Form -->\n <form class=\"newsletter-form\" id=\"newsletterForm\">\n <input \n type=\"email\" \n placeholder=\"Your email address\" \n class=\"newsletter-input\"\n required\n >\n <button type=\"submit\" class=\"btn btn-primary newsletter-btn\">\n <span>Join</span>\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <line x1=\"5\" y1=\"12\" x2=\"19\" y2=\"12\"></line>\n <polyline points=\"12 5 19 12 12 19\"></polyline>\n </svg>\n </button>\n </form>\n\n <!-- Success Message -->\n <div class=\"newsletter-success hidden\" id=\"newsletterSuccess\">\n <div class=\"success-icon\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <polyline points=\"20 6 9 17 4 12\"></polyline>\n </svg>\n </div>\n <p class=\"success-text\">Welcome to the ritual</p>\n </div>\n\n <p class=\"newsletter-privacy\">\n We respect your privacy. Unsubscribe at any moment.\n </p>\n </div>\n </div>\n </div>\n </div>\n </section>\n\n <!-- Footer -->\n <footer class=\"footer\">\n <div class=\"footer-divider\"></div>\n <div class=\"footer-glow\"></div>\n\n <div class=\"container\">\n <div class=\"footer-grid\">\n <!-- Brand -->\n <div class=\"footer-brand\">\n <h2 class=\"footer-logo text-embossed\">Aura</h2>\n <p class=\"footer-tagline\">\n A sanctuary for those who seek beauty as an art form. \n Transformative rituals for the discerning spirit.\n </p>\n <div class=\"footer-social\">\n <a href=\"#\" class=\"social-btn frosted-glass\" aria-label=\"Instagram\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <rect x=\"2\" y=\"2\" width=\"20\" height=\"20\" rx=\"5\" ry=\"5\"></rect>\n <path d=\"M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z\"></path>\n <line x1=\"17.5\" y1=\"6.5\" x2=\"17.51\" y2=\"6.5\"></line>\n </svg>\n </a>\n <a href=\"#\" class=\"social-btn frosted-glass\" aria-label=\"YouTube\">\n <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n <path d=\"M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z\"></path>\n <polygon points=\"9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02\"></polygon>\n </svg>\n </a>\n </div>\n </div>\n\n <!-- Links -->\n <div class=\"footer-links-group\">\n <h3 class=\"footer-links-title\">Ritual</h3>\n <ul class=\"footer-links\">\n <li><a href=\"#\">Essences</a></li>\n <li><a href=\"#\">Oils</a></li>\n <li><a href=\"#\">Creams</a></li>\n <li><a href=\"#\">Mists</a></li>\n </ul>\n </div>\n\n <div class=\"footer-links-group\">\n <h3 class=\"footer-links-title\">Philosophy</h3>\n <ul class=\"footer-links\">\n <li><a href=\"#\">Our Story</a></li>\n <li><a href=\"#\">Ingredients</a></li>\n <li><a href=\"#\">Sustainability</a></li>\n <li><a href=\"#\">Atelier</a></li>\n </ul>\n </div>\n\n <div class=\"footer-links-group\">\n <h3 class=\"footer-links-title\">Care</h3>\n <ul class=\"footer-links\">\n <li><a href=\"#\">Contact</a></li>\n <li><a href=\"#\">Shipping</a></li>\n <li><a href=\"#\">Returns</a></li>\n <li><a href=\"#\">FAQ</a></li>\n </ul>\n </div>\n </div>\n\n <!-- Bottom -->\n <div class=\"footer-bottom\">\n <p class=\"footer-copyright\">© 2024 Aura Beauty. All rights reserved.</p>\n <div class=\"footer-legal\">\n <a href=\"#\">Privacy</a>\n <a href=\"#\">Terms</a>\n </div>\n </div>\n </div>\n </footer>\n\n <script src=\"script.js\"></script>\n</body>\n</html>\n"}"> </lov-tool-use>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aura Beauty - An immersive sensory journey through rare botanical essences and transformative skincare rituals">
+  <title>Aura Beauty | Where Beauty Becomes Art</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header frosted-glass" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Mobile Menu Button -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <svg class="menu-icon" id="menuIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+          <svg class="close-icon hidden" id="closeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <!-- Logo -->
+        <a href="/" class="logo">
+          <h1 class="logo-text text-embossed">Aura</h1>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop" id="navDesktop">
+          <a href="#" class="nav-link line-draw">Ritual</a>
+          <a href="#" class="nav-link line-draw">Essences</a>
+          <a href="#" class="nav-link line-draw">Atelier</a>
+          <a href="#" class="nav-link line-draw">Philosophy</a>
+        </nav>
+
+        <!-- Actions -->
+        <div class="header-actions">
+          <button class="icon-btn search-btn" aria-label="Search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+          </button>
+          <button class="icon-btn cart-btn" aria-label="Shopping bag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-count">1</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <nav class="nav-mobile hidden" id="navMobile">
+      <div class="container">
+        <a href="#" class="nav-link-mobile">Ritual</a>
+        <a href="#" class="nav-link-mobile">Essences</a>
+        <a href="#" class="nav-link-mobile">Atelier</a>
+        <a href="#" class="nav-link-mobile">Philosophy</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero mineral-bg">
+    <!-- Background shapes -->
+    <div class="hero-bg-shapes">
+      <div class="blob-1 fluid-blob"></div>
+      <div class="blob-2 organic-shape float-delayed"></div>
+      <div class="glow-center"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-grid">
+        <!-- Content -->
+        <div class="hero-content reveal-up">
+          <span class="hero-label">The Ritual Collection</span>
+          <h1 class="hero-title">
+            <span class="hero-title-line">Where Beauty</span>
+            <span class="hero-title-line italic text-gradient-rose">Becomes Art</span>
+          </h1>
+          <p class="hero-description">
+            An immersive sensory journey through rare botanical essences and 
+            transformative skincare rituals, designed to elevate your daily practice.
+          </p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary">Begin Your Ritual</a>
+            <a href="#" class="btn btn-ghost">Explore Essences</a>
+          </div>
+        </div>
+
+        <!-- Crystal Pod Product -->
+        <div class="hero-product reveal-up" style="animation-delay: 0.3s">
+          <div class="product-halo"></div>
+          <div class="crystal-pod hero-pod halo-glow">
+            <div class="hero-image-wrapper">
+              <img src="../src/assets/product-hero.jpg" alt="Aura signature serum in crystal vessel" class="hero-image">
+              <div class="image-overlay"></div>
+            </div>
+            <div class="price-pod frosted-glass float">
+              <p class="price-label">Starting from</p>
+              <p class="price-value">€285</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+      <span class="scroll-text">Discover</span>
+      <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="12" y1="5" x2="12" y2="19"></line>
+        <polyline points="19 12 12 19 5 12"></polyline>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products mineral-bg">
+    <div class="products-bg-shape organic-shape-alt"></div>
+    
+    <div class="container">
+      <!-- Header -->
+      <div class="section-header reveal-up">
+        <span class="section-label">The Collection</span>
+        <h2 class="section-title">Curated <span class="italic text-gradient-rose">Essences</span></h2>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="product-grid stagger-reveal">
+        <!-- Product 1 - Featured -->
+        <article class="product-card product-featured">
+          <div class="crystal-pod product-pod halo-glow">
+            <div class="product-image-wrapper aspect-4-5">
+              <img src="../src/assets/product-1.jpg" alt="Luminous Essence" class="product-image">
+              <div class="image-overlay"></div>
+              <button class="add-btn frosted-glass">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Serum</p>
+            <h3 class="product-name">Luminous Essence</h3>
+            <p class="product-price">€285</p>
+          </div>
+        </article>
+
+        <!-- Product 2 -->
+        <article class="product-card product-half">
+          <div class="crystal-pod product-pod halo-glow">
+            <div class="product-image-wrapper aspect-square">
+              <img src="../src/assets/product-2.jpg" alt="Rose Quartz Elixir" class="product-image">
+              <div class="image-overlay"></div>
+              <button class="add-btn frosted-glass">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Oil</p>
+            <h3 class="product-name">Rose Quartz Elixir</h3>
+            <p class="product-price">€195</p>
+          </div>
+        </article>
+
+        <!-- Product 3 -->
+        <article class="product-card product-third">
+          <div class="crystal-pod product-pod halo-glow">
+            <div class="product-image-wrapper aspect-square">
+              <img src="../src/assets/product-3.jpg" alt="Pearl Radiance" class="product-image">
+              <div class="image-overlay"></div>
+              <button class="add-btn frosted-glass">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Cream</p>
+            <h3 class="product-name">Pearl Radiance</h3>
+            <p class="product-price">€165</p>
+          </div>
+        </article>
+
+        <!-- Product 4 -->
+        <article class="product-card product-third">
+          <div class="crystal-pod product-pod halo-glow">
+            <div class="product-image-wrapper aspect-square">
+              <img src="../src/assets/product-4.jpg" alt="Botanical Veil" class="product-image">
+              <div class="image-overlay"></div>
+              <button class="add-btn frosted-glass">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Mist</p>
+            <h3 class="product-name">Botanical Veil</h3>
+            <p class="product-price">€145</p>
+          </div>
+        </article>
+
+        <!-- Product 5 -->
+        <article class="product-card product-third">
+          <div class="crystal-pod product-pod halo-glow">
+            <div class="product-image-wrapper aspect-square">
+              <img src="../src/assets/product-5.jpg" alt="Silk Renewal" class="product-image">
+              <div class="image-overlay"></div>
+              <button class="add-btn frosted-glass">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <p class="product-category">Mask</p>
+            <h3 class="product-name">Silk Renewal</h3>
+            <p class="product-price">€225</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- View All Link -->
+      <div class="view-all reveal-up">
+        <a href="#" class="view-all-link line-draw">View Complete Collection</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rituals Section -->
+  <section class="rituals">
+    <!-- Background shapes -->
+    <div class="rituals-bg">
+      <div class="rituals-gradient-top"></div>
+      <div class="rituals-blob-1 organic-shape"></div>
+      <div class="rituals-blob-2 organic-shape-alt"></div>
+    </div>
+
+    <div class="container">
+      <!-- Header -->
+      <div class="section-header reveal-up">
+        <span class="section-label">The Experience</span>
+        <h2 class="section-title">Your <span class="italic text-gradient-rose">Ritual</span> Awaits</h2>
+        <p class="section-description">
+          Discover curated skincare journeys designed to transform your daily routine 
+          into moments of serene self-care.
+        </p>
+      </div>
+
+      <!-- Ritual Cards -->
+      <div class="ritual-grid stagger-reveal">
+        <!-- Ritual 1 -->
+        <a href="#" class="ritual-card">
+          <div class="crystal-pod ritual-pod">
+            <div class="ritual-glow"></div>
+            <div class="ritual-icon">
+              <div class="ritual-icon-inner"></div>
+            </div>
+            <div class="ritual-content">
+              <p class="ritual-time">6 min ritual</p>
+              <h3 class="ritual-name">Morning Awakening</h3>
+              <p class="ritual-description">Begin with light</p>
+            </div>
+            <div class="ritual-border"></div>
+          </div>
+        </a>
+
+        <!-- Ritual 2 -->
+        <a href="#" class="ritual-card">
+          <div class="crystal-pod ritual-pod">
+            <div class="ritual-glow"></div>
+            <div class="ritual-icon">
+              <div class="ritual-icon-inner"></div>
+            </div>
+            <div class="ritual-content">
+              <p class="ritual-time">12 min ritual</p>
+              <h3 class="ritual-name">Evening Restoration</h3>
+              <p class="ritual-description">Return to stillness</p>
+            </div>
+            <div class="ritual-border"></div>
+          </div>
+        </a>
+
+        <!-- Ritual 3 -->
+        <a href="#" class="ritual-card">
+          <div class="crystal-pod ritual-pod">
+            <div class="ritual-glow"></div>
+            <div class="ritual-icon">
+              <div class="ritual-icon-inner"></div>
+            </div>
+            <div class="ritual-content">
+              <p class="ritual-time">25 min ritual</p>
+              <h3 class="ritual-name">Weekly Renewal</h3>
+              <p class="ritual-description">Deep transformation</p>
+            </div>
+            <div class="ritual-border"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter mineral-bg">
+    <div class="newsletter-bg">
+      <div class="newsletter-glow"></div>
+    </div>
+
+    <div class="container">
+      <div class="newsletter-wrapper reveal-up">
+        <div class="crystal-pod newsletter-pod">
+          <div class="newsletter-inner-glow"></div>
+          <div class="newsletter-content">
+            <span class="section-label">Inner Circle</span>
+            <h2 class="section-title">Join the <span class="italic text-gradient-rose">Ritual</span></h2>
+            <p class="newsletter-description">
+              Receive early access to new essences, exclusive rituals, and 
+              invitations to intimate beauty experiences.
+            </p>
+            
+            <!-- Form -->
+            <form class="newsletter-form" id="newsletterForm">
+              <input 
+                type="email" 
+                placeholder="Your email address" 
+                class="newsletter-input"
+                required
+              >
+              <button type="submit" class="btn btn-primary newsletter-btn">
+                <span>Join</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </form>
+
+            <!-- Success Message -->
+            <div class="newsletter-success hidden" id="newsletterSuccess">
+              <div class="success-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+              </div>
+              <p class="success-text">Welcome to the ritual</p>
+            </div>
+
+            <p class="newsletter-privacy">
+              We respect your privacy. Unsubscribe at any moment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-divider"></div>
+    <div class="footer-glow"></div>
+
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <h2 class="footer-logo text-embossed">Aura</h2>
+          <p class="footer-tagline">
+            A sanctuary for those who seek beauty as an art form. 
+            Transformative rituals for the discerning spirit.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-btn frosted-glass" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-btn frosted-glass" aria-label="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Links -->
+        <div class="footer-links-group">
+          <h3 class="footer-links-title">Ritual</h3>
+          <ul class="footer-links">
+            <li><a href="#">Essences</a></li>
+            <li><a href="#">Oils</a></li>
+            <li><a href="#">Creams</a></li>
+            <li><a href="#">Mists</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h3 class="footer-links-title">Philosophy</h3>
+          <ul class="footer-links">
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Atelier</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group">
+          <h3 class="footer-links-title">Care</h3>
+          <ul class="footer-links">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">© 2024 Aura Beauty. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
