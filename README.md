@@ -1,8 +1,4 @@
-# Dazure – Digital Services On Demand
+Welcome to **Dazure**, your online destination for premium, high-end beauty and skincare products. Explore a curated collection designed to elevate your beauty routine and create an unforgettable self-care experience.
 
-We offer premium services including:
-- Social Media Content Creation  
-- SEO Blog Writing  
-- Web Design & Email Marketing  
 
 Visit us at [https://dazure.site](https://dazure.site)
