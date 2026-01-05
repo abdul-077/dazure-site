@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product | LUMIÈRE</title>
+    <meta name="description" content="Discover this luxurious beauty product from LUMIÈRE.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">LUMIÈRE</a>
+            <nav class="nav-desktop">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="products.html" class="nav-link active">Collection</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                </button>
+                <a href="cart.html" class="icon-btn cart-btn" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                        <path d="M3 6h18"></path>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <nav class="nav-mobile" id="nav-mobile">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="products.html" class="nav-link active">Collection</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main class="product-detail-page">
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="products.html">Collection</a>
+            <span>/</span>
+            <span id="breadcrumb-product">Product</span>
+        </nav>
+
+        <!-- Product Detail -->
+        <section class="product-detail">
+            <div class="product-detail-grid">
+                <!-- Product Images -->
+                <div class="product-images">
+                    <div class="product-image-main">
+                        <div class="image-glow"></div>
+                        <img src="assets/product-1.svg" alt="Product" id="product-image">
+                    </div>
+                    <div class="product-thumbnails">
+                        <button class="thumbnail active">
+                            <img src="assets/product-1.svg" alt="View 1">
+                        </button>
+                        <button class="thumbnail">
+                            <img src="assets/product-1.svg" alt="View 2">
+                        </button>
+                        <button class="thumbnail">
+                            <img src="assets/product-1.svg" alt="View 3">
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product Info -->
+                <div class="product-info">
+                    <div class="product-category" id="product-category">Serums</div>
+                    <h1 class="product-name" id="product-name">Luminous Elixir</h1>
+                    <p class="product-subtitle" id="product-subtitle">Radiance Serum</p>
+                    
+                    <div class="product-rating">
+                        <div class="stars" id="product-stars">
+                            <!-- Stars will be injected -->
+                        </div>
+                        <span class="rating-text" id="rating-text">4.9 (127 reviews)</span>
+                    </div>
+
+                    <p class="product-price" id="product-price">$285</p>
+
+                    <p class="product-description" id="product-description">
+                        A transcendent serum that captures light itself. Infused with micro-pearls 
+                        and botanical luminizers, this elixir transforms skin into a canvas of pure radiance.
+                    </p>
+
+                    <div class="product-ingredients">
+                        <h4>Key Ingredients</h4>
+                        <div class="ingredients-list" id="ingredients-list">
+                            <!-- Ingredients will be injected -->
+                        </div>
+                    </div>
+
+                    <div class="product-actions">
+                        <div class="quantity-selector">
+                            <button class="qty-btn" id="qty-decrease">−</button>
+                            <span class="qty-value" id="qty-value">1</span>
+                            <button class="qty-btn" id="qty-increase">+</button>
+                        </div>
+                        <button class="btn btn-primary btn-add-cart" id="add-to-cart">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                                <path d="M3 6h18"></path>
+                                <path d="M16 10a4 4 0 0 1-8 0"></path>
+                            </svg>
+                            Add to Cart
+                        </button>
+                    </div>
+
+                    <div class="product-benefits">
+                        <div class="benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                            <span>Free shipping on orders over $200</span>
+                        </div>
+                        <div class="benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                            <span>30-day satisfaction guarantee</span>
+                        </div>
+                        <div class="benefit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg>
+                            <span>Complimentary gift wrapping</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Products -->
+        <section class="related-section">
+            <h2 class="section-title">You May Also Love</h2>
+            <div class="products-grid" id="related-products">
+                <!-- Related products will be injected -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">LUMIÈRE</a>
+                    <p class="footer-tagline">Where beauty becomes transcendence</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="products.html?category=serums">Serums</a></li>
+                        <li><a href="products.html?category=creams">Creams</a></li>
+                        <li><a href="products.html?category=oils">Oils</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lumière. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/product-detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUMIÈRE | Luxury Beauty Experience</title>
+    <meta name="description" content="Discover transcendent beauty rituals at LUMIÈRE. Where science meets artistry in an immersive luxury experience.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">LUMIÈRE</a>
+            <nav class="nav-desktop">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="products.html" class="nav-link">Collection</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                </button>
+                <a href="cart.html" class="icon-btn cart-btn" aria-label="Cart">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                        <path d="M3 6h18"></path>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count" id="cart-count">0</span>
+                </a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <nav class="nav-mobile" id="nav-mobile">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="products.html" class="nav-link">Collection</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg">
+                <div class="hero-orb hero-orb-1"></div>
+                <div class="hero-orb hero-orb-2"></div>
+                <div class="hero-orb hero-orb-3"></div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-subtitle">The Art of Radiance</p>
+                <h1 class="hero-title">Where Beauty<br>Becomes<br>Transcendence</h1>
+                <p class="hero-description">
+                    Step into an immersive sanctuary where cutting-edge science
+                    meets timeless artistry. Each product is a masterpiece,
+                    crafted for those who seek the extraordinary.
+                </p>
+                <div class="hero-actions">
+                    <a href="products.html" class="btn btn-primary">Explore Collection</a>
+                    <a href="about.html" class="btn btn-secondary">Our Story</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="crystal-pod crystal-pod-1">
+                    <div class="crystal-inner">
+                        <img src="assets/product-1.svg" alt="Luminous Elixir">
+                    </div>
+                    <div class="crystal-glow"></div>
+                </div>
+                <div class="crystal-pod crystal-pod-2">
+                    <div class="crystal-inner">
+                        <img src="assets/product-2.svg" alt="Crystal Veil">
+                    </div>
+                    <div class="crystal-glow"></div>
+                </div>
+                <div class="crystal-pod crystal-pod-3">
+                    <div class="crystal-inner">
+                        <img src="assets/product-3.svg" alt="Velvet Essence">
+                    </div>
+                    <div class="crystal-glow"></div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll to discover</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Featured Products -->
+        <section class="featured-section">
+            <div class="section-header">
+                <p class="section-subtitle">Curated Selection</p>
+                <h2 class="section-title">Signature Rituals</h2>
+            </div>
+            <div class="products-grid" id="featured-products">
+                <!-- Products will be injected by JavaScript -->
+            </div>
+            <div class="section-cta">
+                <a href="products.html" class="btn btn-secondary">View Full Collection</a>
+            </div>
+        </section>
+
+        <!-- Brand Philosophy -->
+        <section class="philosophy-section">
+            <div class="philosophy-grid">
+                <div class="philosophy-content">
+                    <p class="section-subtitle">Our Philosophy</p>
+                    <h2 class="section-title">Beauty as an<br>Art Form</h2>
+                    <p class="philosophy-text">
+                        At Lumière, we believe skincare transcends routine—it becomes ritual. 
+                        Our formulations are symphonies of rare botanicals, precious minerals, 
+                        and breakthrough science, each designed to transform not just skin, 
+                        but the very experience of self-care.
+                    </p>
+                    <div class="philosophy-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Lunar Harvested</h4>
+                                <p>Botanicals collected under optimal lunar phases</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Crystal Infused</h4>
+                                <p>Energized with healing crystal frequencies</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Award Winning</h4>
+                                <p>Recognized globally for innovation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="philosophy-visual">
+                    <div class="visual-frame">
+                        <img src="assets/philosophy.svg" alt="Lumière Philosophy">
+                        <div class="visual-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section">
+            <div class="experience-content">
+                <p class="section-subtitle">The Lumière Experience</p>
+                <h2 class="section-title">A Journey for<br>the Senses</h2>
+                <p class="experience-text">
+                    Every interaction with Lumière is designed to transport you. 
+                    From the weight of our vessels in your hand to the whisper 
+                    of our textures on your skin—this is beauty reimagined.
+                </p>
+                <div class="experience-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">47</span>
+                        <span class="stat-label">Rare Ingredients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">12</span>
+                        <span class="stat-label">Years of Research</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">∞</span>
+                        <span class="stat-label">Moments of Joy</span>
+                    </div>
+                </div>
+                <a href="products.html" class="btn btn-primary">Begin Your Ritual</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">LUMIÈRE</a>
+                    <p class="footer-tagline">Where beauty becomes transcendence</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
+                                <path d="m10 15 5-3-5-3z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="products.html?category=serums">Serums</a></li>
+                        <li><a href="products.html?category=creams">Creams</a></li>
+                        <li><a href="products.html?category=oils">Oils</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lumière. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Render featured products
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('featured-products');
+            const featured = products.slice(0, 4);
+            container.innerHTML = featured.map(product => createProductCard(product)).join('');
+        });
+    </script>
+</body>
+</html>
