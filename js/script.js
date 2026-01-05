@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ========================================
   const addButtons = document.querySelectorAll('.add-btn');
   const cartCount = document.querySelector('.cart-count');
-  let currentCount = parseInt(cartCount?.textContent || '1');
+  let currentCount = parseInt(cartCount?.textContent || '0');
 
   addButtons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
