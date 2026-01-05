@@ -126,6 +126,15 @@ document.addEventListener('DOMContentLoaded', () => {
   addButtons.forEach((btn) => {
     btn.addEventListener('click', (e) => {
       e.stopPropagation();
+
+  // Checkout redirect
+const cartBtn = document.querySelector('.cart-btn');
+if (cartBtn) {
+  cartBtn.addEventListener('click', () => {
+    window.location.href = 'checkout.html';
+  });
+}
+
       
       // Increment cart count
       currentCount++;
