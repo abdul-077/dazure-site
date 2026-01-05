@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" fill="none">
+  <defs>
+    <linearGradient id="proc1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FAF9F7"/>
+      <stop offset="50%" style="stop-color:#F5E6D3"/>
+      <stop offset="100%" style="stop-color:#E8D5D5"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="500" fill="url(#proc1)"/>
+  <!-- Process flow visualization -->
+  <!-- Step 1 - Sourcing -->
+  <circle cx="100" cy="100" r="50" fill="rgba(212,175,55,0.15)"/>
+  <circle cx="100" cy="100" r="30" fill="rgba(255,255,255,0.5)"/>
+  <path d="M85 100 Q100 85 115 100 Q100 115 85 100" fill="rgba(212,175,55,0.4)"/>
+  <!-- Step 2 - Formulation -->
+  <circle cx="300" cy="180" r="55" fill="rgba(232,213,213,0.3)"/>
+  <circle cx="300" cy="180" r="35" fill="rgba(255,255,255,0.5)"/>
+  <rect x="285" y="165" width="30" height="30" rx="5" fill="none" stroke="rgba(212,175,55,0.4)" stroke-width="1"/>
+  <!-- Step 3 - Infusion -->
+  <circle cx="100" cy="300" r="60" fill="rgba(212,175,55,0.1)"/>
+  <circle cx="100" cy="300" r="40" fill="rgba(255,255,255,0.5)"/>
+  <polygon points="100,270 85,310 100,330 115,310" fill="none" stroke="rgba(212,175,55,0.5)" stroke-width="1"/>
+  <!-- Step 4 - Presentation -->
+  <circle cx="300" cy="400" r="50" fill="rgba(232,213,213,0.25)"/>
+  <circle cx="300" cy="400" r="30" fill="rgba(255,255,255,0.5)"/>
+  <rect x="285" y="385" width="30" height="35" rx="3" fill="rgba(212,175,55,0.3)"/>
+  <!-- Connecting lines -->
+  <path d="M150 100 Q200 100 250 150" stroke="rgba(212,175,55,0.2)" stroke-width="1" fill="none"/>
+  <path d="M250 210 Q200 250 150 270" stroke="rgba(212,175,55,0.2)" stroke-width="1" fill="none"/>
+  <path d="M150 330 Q200 350 250 370" stroke="rgba(212,175,55,0.2)" stroke-width="1" fill="none"/>
+  <!-- Floating particles -->
+  <circle cx="200" cy="50" r="3" fill="rgba(212,175,55,0.4)"/>
+  <circle cx="50" cy="200" r="3" fill="rgba(212,175,55,0.4)"/>
+  <circle cx="350" cy="280" r="3" fill="rgba(212,175,55,0.4)"/>
+  <circle cx="200" cy="450" r="3" fill="rgba(212,175,55,0.4)"/>
+</svg>
